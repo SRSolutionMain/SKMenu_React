@@ -3,20 +3,21 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Pruebas con React.</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <header className="App-header">
+          <p>Pruebas con React. estos cambio los realizo RReyes</p>
+        </header>
+      </div>
+      <div className="container">
+        <input
+          type="text"
+          className="form-control mb-2"
+          placeholder="pon tu nombre"
+        />
+        <button className="btn btn-primary" />
+      </div>
+    </>
   );
 }
 
